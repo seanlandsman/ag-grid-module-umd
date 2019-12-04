@@ -1,0 +1,32 @@
+{
+  "name": "ag-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config config/webpack.prod.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "css-loader": "^3.2.1",
+    "cssnano": "^4.1.10",
+    "postcss-loader": "^3.0.0",
+    "style-loader": "^1.0.1",
+    "terser-webpack-plugin": "^2.2.1",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {
+    "@ag-grid-community/client-side-row-model": "22.0.0",
+    "@ag-grid-community/csv-export": "22.0.0",
+    "@ag-grid-community/infinite-row-model": "22.0.0",
+    "@ag-grid-enterprise/clipboard": "22.0.0",
+    "@ag-grid-enterprise/excel-export": "22.0.0",
+    "@ag-grid-enterprise/menu": "22.0.0",
+    "@ag-grid-enterprise/row-grouping": "22.0.0",
+    "@ag-grid-enterprise/set-filter": "22.0.0",
+    "@ag-grid-enterprise/viewport-row-model": "22.0.0"
+  }
+}
